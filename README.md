@@ -22,7 +22,8 @@
 
 웹 크롤러는 지정된 시작 URL에서 출발하여 해당 페이지의 모든 링크를 추출하고, 각 링크를 따라가며 웹사이트의 구조를 탐색합니다. 이 과정에서 발견된 모든 URL과 그들 사이의 연결 관계는 방향 그래프로 표현되며, 최종적으로 Graphviz DOT 형식으로 저장됩니다. 이 그래프는 웹 인터페이스를 통해 시각적으로 표현되어 웹사이트의 구조를 직관적으로 이해할 수 있게 합니다.
 
-[웹 인터페이스 메인 화면 캡처]
+<img width="837" alt="image" src="https://github.com/user-attachments/assets/feb1e43f-0bd9-4bd8-b1e5-b3e24e290b9c" />
+
 
 ### 프로젝트 목표
 효율적인 멀티스레드 웹 크롤링 구현
@@ -67,7 +68,11 @@ C와 Python 간의 상호 운용성 이해
 - 결과 시각화: 웹 그래프를 이미지로 표시
 - 추천 설정: 다양한 웹사이트에 대한 최적 설정 가이드 제공
 
-[주요 기능 스크린샷 캡처]
+<img width="718" alt="image" src="https://github.com/user-attachments/assets/0d3ee6ac-39c1-438a-80e9-72819b3f27ad" />
+
+<img width="714" alt="image" src="https://github.com/user-attachments/assets/fcd9da6d-329b-4f53-a44f-1d26fdcfcfc6" />
+
+
 
 ### 시스템 아키텍처
 프로젝트는 크게 두 부분으로 구성됩니다
